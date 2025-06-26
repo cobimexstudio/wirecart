@@ -38,8 +38,8 @@ return [
 
         // Default Cart Instance Configuration
         config('cart.default') => [
-            'tax_enabled' => env('CART_TAX_ENABLED', false), // Enable tax for this instance
-            'tax_rate' => env('CART_DEFAULT_TAXRATE', 0.10), // The default tax rate for this cart instance (0.10 represents 10% tax)
+            'tax_enabled' => env('CART_TAX_ENABLED', true), // Enable tax for this instance
+            'tax_rate' => env('CART_DEFAULT_TAXRATE', 0.20), // The default tax rate for this cart instance (0.10 represents 10% tax)
         ],
 
         // Wishlist Cart Instance Configuration
